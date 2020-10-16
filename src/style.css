@@ -2,13 +2,11 @@
 html {
 	box-sizing: border-box;
 }
-
 *,
 *::before,
 *::after {
 	box-sizing: inherit;
 }
-
 body {
 	background: #010001;
 	min-width: 320px;
@@ -18,33 +16,27 @@ body {
 	margin: 0;
 	font-family: "Roboto", sans-serif;
 }
-
 button, input {
 	font: inherit;
 }
-
 img {
 	max-width: 100%;
 	height: auto;
 }
-
 a {
 	text-decoration: none;
 	color: inherit;
 	cursor: pointer;
 }
-
 ul {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 }
-
 h1, h2, h3, p {
 	padding: 0;
 	margin: 0;
 }
-
 .container {
 	max-width: 1280px;
 	margin: 0 auto;
@@ -56,7 +48,6 @@ h1, h2, h3, p {
 	display: flex;
 	list-style: none;
 }
-
 .item-link {
 	color: #ffffff;
 	text-decoration: none;
@@ -65,24 +56,6 @@ h1, h2, h3, p {
 	font-size: 12px;
 	line-height: 14px;
 }
-
-
-
-/* header */
-
-/* main */
-
-/* features */
-
-
-
-/* footer */
-
-
-/* calendar */
-
-
-/* launches */
 
 .launches {
 
@@ -95,47 +68,32 @@ h1, h2, h3, p {
 	padding: 30px;
 	text-align: left;
 }
-
 .launches-date {
 	font-size: 14px;
 	margin-bottom: 15px;
 	display: block;
 }
-
 .launches-image {
 	position: relative;
 }
-
 .launches-content {
 	overflow: hidden;
 }
-
-
 .launches-image img {
 
 	object-fit: cover;
 	display: block;
 	margin: 0 auto;
 }
-
 .launches-title {
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
-
 .launches-details {
 	display: block;
 }
-
 @media (max-width: 425px) {
-
-
 	.launches {
 		width: 310px;
 	}
 }
-
-/* details */
-
-
-/* end */

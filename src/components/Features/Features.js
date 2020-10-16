@@ -36,12 +36,8 @@ const Features = () => {
         <img
           src='img/falcon-1.png'
           alt="rocket"
-          className="rocket"
-          
-        />
-
+          className="rocket"/>
         </RelaxWrapper>
-
         <article>
           <h3 className="features-subtitle">DESCRIPTION</h3>
           <p className="features-text">

@@ -1,15 +1,17 @@
 import React from 'react'
 import './details.css'
+import Main from '../Main/Main'
 
 const Details = () => {
     return (
-        <div>
+        <>
+            <Main />      
             <main className="details">
                 <div className="container">
                     <div className="details-row">
                         <div className="details-image">
                             <img src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png" alt=""/>
-				</div>
+				        </div>
                             <div className="details-content">
                                 <p className="details-description">Engine failure at 33 seconds and loss of vehicle</p>
                             </div>
@@ -21,7 +23,7 @@ const Details = () => {
                     <a href="calendar.html" className="button button-back">go back</a>
 	</main>
             
-        </div>
+    </>
     )
 }
 export default Details;
